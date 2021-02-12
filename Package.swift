@@ -11,7 +11,7 @@ let package = Package(
     ],
     products: [
         .library(name: "OktaOidc",
-                 type: .dynamic,
+                 type: .static,
                  targets: [
                     "OktaOidc",
                     "OktaOidc_AppAuth"
